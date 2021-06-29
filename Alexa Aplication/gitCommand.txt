@@ -1,0 +1,18 @@
+git cd "<file path>"
+git config --global user.name "<name>"
+git config --global user.email "<example@example.com>"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status
+git remote add origin <link form ssh> (without quotationgit push origin master(this will failed if your project is private, so
+you have to give the authontication of git to push the date into origin)
+
+git push origin master
+
+/c/Users/HP/.ssh/id_rsa.pub , here the first ssh key path
+cat <path>
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1M/QrWDe/XqQXtIACcsA4HdNWOSaI5olsgXk7up4rOa/VdySMxoDs99BxdrT7bEC5F/VEAJBnWYLGC4zxrZK2Mc+1dj3k3JsO/24ToYgu5ISC5lPCOhX4z4S+MGK9h80A7NCt/LCjCSVnY3Cdm4CVRWxz5dj9Gt820nbIU9Im72cYNk0ZdRsKr+IfDzE9B4lwgDMnfYmj9VmZD2GiCEpSX7/50E79idpH6zg/tsDq1ikLmXSUM3JO4Jcxjqc3rWOBNE5ZoeRcEw+hIYadXDuLj2GQ8Y6tJCKelUYy3Xy7KQlaNykSnjQU4rX+aRxZPpBoc0pt4eX7vvdMcYsgGJbVSyQVq1/hD7jb56tIWsvEFWYfwcw39D8gzTj9EBabymbmr6boESHxIQ2bQPUHwAp63AmusHAo+Oy1+Y9Egy1u8nIWVxxb4pJJEyJTczEgO/SA74qAAh3vlMlDMXLOjS9O8BTFiKXsdi61X61Fredt8DO/bhkLrZAZJtoWVyKShX5wJ8pjK3KqGNAglS1KspaCqK2//F5ES5ZFzpd0DibbD9LVoSroUHHeRaT7afmvfcPs3oKpwbATzCPi444kkSTc4qTS5aRqxzcJicJz8/XlgY3yoGoHuBxCh/YeoVJykfYgdPGRrbOENXFMQwUf4MleNkkSUHbeIJc457AhoQSj5Q== ashisbhowmikisp@gmail.com
+now put the key into github ssh key 
+git push origin master
